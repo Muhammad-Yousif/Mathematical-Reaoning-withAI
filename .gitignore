@@ -1,0 +1,25 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore dataset cache (if using `datasets` library)
+~/.cache/huggingface/
+datasets_cache/
+
+# Ignore large model files (if downloading transformers models locally)
+huggingface/
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore VS Code settings (optional)
+.vscode/
